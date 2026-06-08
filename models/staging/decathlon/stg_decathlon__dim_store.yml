@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: stg_decathlon__dim_store
+    columns:
+      - name: store_code
+        tests:
+          - unique
+          - not_null
+      - name: is_tested_region
+        tests:
+          - not_null

@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: stg_decathlon__dim_model
+    columns:
+      - name: item_code
+        tests:
+          - unique
+          - not_null
+      - name: model_code
+        tests:
+          - not_null

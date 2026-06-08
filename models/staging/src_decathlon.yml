@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: decathlon_raw
+    database: decathlon-498715
+    dataset: decathlon_raw
+    tables:
+      - name: dim_model
+        description: "Référentiel des caractéristiques des produits."
+        
+      - name: dim_store
+        description: "Référentiel des magasins Décathlon (Test vs Contrôle)."
+      
+      - name: fact_sales
+        description: "Historique brut des transactions de ventes."
+    
+      - name: fact_stock
+        description: "État brut quotidien des stocks par magasin et modèle."
+    

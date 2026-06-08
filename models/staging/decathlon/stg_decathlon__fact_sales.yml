@@ -1,0 +1,25 @@
+version: 2
+models:
+  - name: stg_decathlon__fact_sales
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - dbt_utils.unique_combination_of_columns:
+              arguments:
+                combination_of_columns:
+                  - transaction_id
+                  - item_code
+                  - item_operation_type
+      - name: store_code
+        tests:
+          - relationships:
+              arguments:
+                to: source('decathlon_raw', 'dim_store')
+                field: store_code
+      - name: item_code
+        tests:
+          - relationships:
+              arguments:
+                to: source('decathlon_raw', 'dim_model')
+                field: item_code

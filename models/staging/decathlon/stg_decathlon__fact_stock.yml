@@ -1,0 +1,16 @@
+version: 2
+models:
+  - name: stg_decathlon__fact_stock
+    columns:
+      - name: store_code
+        tests:
+          - relationships:
+              arguments:
+                to: source('decathlon_raw', 'dim_store')
+                field: store_code
+      - name: item_code
+        tests:
+          - relationships:
+              arguments:
+                to: source('decathlon_raw', 'dim_model')
+                field: item_code

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: decathlon_raw
+    description: "Base de données contenant les tables brutes de l'A/B test Décathlon."
+    
+    dataset: decathlon_raw 
+    tables:
+      - name: fact_sales
+        description: "Historique brut des transactions de ventes."
+      - name: fact_stock
+        description: "État brut quotidien des stocks par magasin et modèle."
+      - name: dim_store
+        description: "Référentiel des magasins Décathlon (Test vs Contrôle)."
+      - name: dim_model
+        description: "Référentiel des caractéristiques des produits."

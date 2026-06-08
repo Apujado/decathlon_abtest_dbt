@@ -20,11 +20,18 @@ Ce projet applique les standards de l'Analytics Engineering (Medallion Architect
 models/
 ├── staging/
 │   └── decathlon/
-│       ├── src_decathlon.yml           # Déclaration des tables sources BigQuery
-│       ├── stg_decathlon__sales.sql    # Nettoyage et typage de l'historique des ventes
-│       ├── stg_decathlon__stock.sql    # Suivi quotidien de la disponibilité des stocks
-│       ├── stg_decathlon__stores.sql   # Référentiel magasins (Aiguillage Test/Contrôle)
-│       └── stg_decathlon__models.sql   # Référentiel des produits (Poids et Haltères)
+│       ├── src_decathlon.yml           # Déclaration des tables sources
+│       ├── stg_decathlon__fact_sales.sql # Nettoyage et typage des ventes
+│       ├── stg_decathlon__fact_stock.sql # Nettoyage et typage des stocks
+│       ├── stg_decathlon__dim_store.sql  # Référentiel magasins
+│       └── stg_decathlon__dim_model.sql  # Référentiel produits
 └── marts/
     └── marketing/
-        └── mart_ab_test_performance.sql # Table finale agrégée pour l'analyse de performance
+        └── mart_ab_test_performance.sql # Analyse A/B Test finale
+
+## 🚀 Utilisation
+
+Pour lancer les tests de qualité et générer les modèles :
+```bash
+dbt run
+dbt test

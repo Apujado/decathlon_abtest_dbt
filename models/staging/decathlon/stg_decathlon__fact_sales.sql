@@ -13,7 +13,7 @@ renamed as (
         cast(quantity as int64) as quantity,
         cast(gmv as float64) as gmv_turnover
     from source
-   -- Ici, j'exclue les 4 magasins manquants dans le fichier des magasins 
+   -- Ici, j'exclue les 4 magasins manquants dans le fichier store 
     where store_code NOT IN (6346846, 6086797, 6181720, 6175643) 
 )
 

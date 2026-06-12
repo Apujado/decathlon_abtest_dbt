@@ -53,7 +53,3 @@ dbt test
 
 
 
-### Objectif
-
-Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée par Domyos.
-

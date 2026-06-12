@@ -35,3 +35,5 @@ Pour lancer les tests de qualité et générer les modèles :
 ```bash
 dbt run
 dbt test
+
+<iframe src="https://gamma.app/embed/ualjhalw5ci1eak" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Évaluer l'impact économique du retrait du KIT 10kg"></iframe>

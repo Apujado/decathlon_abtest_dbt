@@ -1,3 +1,22 @@
+## Présentation
+
+Cette étude de cas a été réalisée dans le cadre d'un processus de recrutement pour un poste de Data Analyst.
+
+📄 [Consulter la présentation complète](https://gamma.app/docs/Evaluer-limpact-economique-du-retrait-du-KIT-10kg-...)
+
+### Outils utilisés
+
+- Python / SQL / Google Colab
+- BigQuery
+- dbt
+- Tableau Cloud
+
+### Objectif
+
+Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée par Domyos.
+
+
+
 # 🚴 DECATHLON Digital - Analytics Technical Case
 ## Évaluation du succès économique d'une expérimentation commerciale (Domyos)
 
@@ -36,7 +55,9 @@ Pour lancer les tests de qualité et générer les modèles :
 dbt run
 dbt test
 
-## Presentation
-📄 Présentation disponible ici:
-[https://gamma.app/docs/Evaluer-limpact-economique-du-retrait-du-KIT-10kg-ualjhalw5ci1eak]
+
+
+### Objectif
+
+Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée par Domyos.
 

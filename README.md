@@ -16,10 +16,6 @@ Cette étude de cas a été réalisée dans le cadre d'un processus de recruteme
 Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée par Domyos.
 
 
-
-# 🚴 DECATHLON Digital - Analytics Technical Case
-## Évaluation du succès économique d'une expérimentation commerciale (Domyos)
-
 ## 📌 1. Contexte Métier
 En 2023, une initiative stratégique a été lancée chez Décathlon pour optimiser l'offre en magasin en réduisant le nombre de références disponibles. 
 

@@ -2,7 +2,7 @@
 
 Cette étude de cas a été réalisée dans le cadre d'un processus de recrutement pour un poste de Data Analyst.
 
-📄 [Consulter la présentation complète](https://gamma.app/docs/Evaluer-limpact-economique-du-retrait-du-KIT-10kg-...)
+📄 [Consulter la présentation complète](https://gamma.app/docs/Evaluer-limpact-economique-du-retrait-du-KIT-10kg-ualjhalw5ci1eak)
 
 ### Outils utilisés
 

@@ -34,7 +34,8 @@ enriched_sales as (
         s.gmv_turnover,
         st.is_tested_region,
         m.model_name,      -- Gardé pour l'affichage principal
-        m.picture_url,     -- Ajout de l'URL de l'image pour la dataviz 
+        m.picture_url,        -- Ajout de l'URL de l'image pour la dataviz 
+        m.product_nature,  
         
         -- Classification binaire des périodes
         case 
@@ -61,11 +62,12 @@ select
     is_tested_region,
     test_period,
     product_type,
+    product_nature,
     model_name,
-    item_code,
-    picture_url, --  Ajouté ici pour le groupement
+    item_code, --  Ajouté ici pour le groupement
+    picture_url, 
     sum(quantity) as total_quantity_sold,
     sum(gmv_turnover) as total_revenue_gmv,
     count(distinct transaction_id) as total_transactions
 from enriched_sales
-group by 1, 2, 3, 4, 5, 6, 7
+group by 1, 2, 3, 4, 5, 6, 7,8

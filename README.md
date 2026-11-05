@@ -1,6 +1,6 @@
 ## Présentation
 
-Cette étude de cas a été réalisée dans le cadre d'un processus de recrutement pour un poste de Data Analyst.
+Étude de cas complète d'Analytics Engineering et d'Analyse Métier Retail.
 
 📄 [Consulter la présentation complète](https://gamma.app/docs/Evaluer-limpact-economique-du-retrait-du-KIT-10kg-ualjhalw5ci1eak)
 
@@ -13,7 +13,7 @@ Cette étude de cas a été réalisée dans le cadre d'un processus de recruteme
 
 ### Objectif
 
-Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée par Domyos.
+Évaluer l'impact économique du retrait du KIT 10kg dans le cadre d'une expérimentation commerciale menée pour Domyos.
 
 
 ## 📌 1. Contexte Métier
@@ -22,9 +22,9 @@ En 2023, une initiative stratégique a été lancée chez Décathlon pour optimi
 Le directeur commercial de la marque **Domyos** a identifié le **kit d'haltères de 10 kg** comme un candidat idéal pour un retrait des rayons. L'hypothèse sous-jacente est la suivante : face à l'indisponibilité du kit 10 kg, les clients reporteront leurs achats sur des alternatives existantes (kits de 20 kg ou poids unitaires), compensant ainsi intégralement la perte de chiffre d'affaires.
 
 ### 📊 Paramètres de l'A/B Test
-* **Période de test** : 7 semaines consécutives (Semaines 35 à 41 de l'année 2023).
-* **Période de pré-test (historique)** : 7 semaines consécutives (Semaines 28 à 34 de l'année 2023).
-* **Périmètre Géographique** : Une sélection de magasins "Test" (où le kit 10 kg a été retiré) comparée à un groupe de magasins "Contrôle" (offre inchangée).
+- **Période de test** : 7 semaines consécutives (Semaines 35 à 41 de l'année 2023).
+- **Période de pré-test (historique)** : 7 semaines consécutives (Semaines 28 à 34 de l'année 2023).
+- **Périmètre Géographique** : Une sélection de magasins "Test" (où le kit 10 kg a été retiré) comparée à un groupe de magasins "Contrôle" (offre inchangée).
 
 ---
 
@@ -43,13 +43,5 @@ models/
 └── marts/
     └── marketing/
         └── mart_ab_test_performance.sql # Analyse A/B Test finale
-
-## 🚀 Utilisation
-
-Pour lancer les tests de qualité et générer les modèles :
-```bash
-dbt run
-dbt test
-
 
 
